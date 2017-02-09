@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182F8D4A1D5E1FC20082063A /* AuthenticationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182F8D491D5E1FC20082063A /* AuthenticationView.xib */; };
+		182F8D4C1D5E200E0082063A /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F8D4B1D5E200E0082063A /* AuthenticationView.swift */; };
+		182F8D4E1D5E2FAE0082063A /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F8D4D1D5E2FAE0082063A /* Labels.swift */; };
+		185F34491D5C9DA500E967EB /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F34481D5C9DA500E967EB /* Customer.swift */; };
+		185F344B1D5CACBF00E967EB /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F344A1D5CACBF00E967EB /* Rates.swift */; };
+		189850C91D5A12AE00B7A8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850C81D5A12AE00B7A8AD /* AppDelegate.swift */; };
+		189850CE1D5A12AE00B7A8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189850CC1D5A12AE00B7A8AD /* Main.storyboard */; };
+		189850D01D5A12AE00B7A8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189850CF1D5A12AE00B7A8AD /* Assets.xcassets */; };
+		189850D31D5A12AE00B7A8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189850D11D5A12AE00B7A8AD /* LaunchScreen.storyboard */; };
+		189850DF1D5A2EDA00B7A8AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850DE1D5A2EDA00B7A8AD /* HomeViewController.swift */; };
+		189850E11D5A2F7F00B7A8AD /* MobileNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850E01D5A2F7F00B7A8AD /* MobileNumberViewController.swift */; };
+		189850E71D5A3AA400B7A8AD /* Bliss Pro Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189850E61D5A3AA400B7A8AD /* Bliss Pro Medium.ttf */; };
+		189850E91D5A593200B7A8AD /* SecurityCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850E81D5A593200B7A8AD /* SecurityCodeViewController.swift */; };
+		189850EB1D5A600D00B7A8AD /* CalculateBitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850EA1D5A600D00B7A8AD /* CalculateBitcoinViewController.swift */; };
+		189850ED1D5A641B00B7A8AD /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850EC1D5A641B00B7A8AD /* OrderConfirmationViewController.swift */; };
+		189850EF1D5AEBA500B7A8AD /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189850EE1D5AEBA500B7A8AD /* ThankyouViewController.swift */; };
+		189850F11D5AFDCF00B7A8AD /* Bliss Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189850F01D5AFDCF00B7A8AD /* Bliss Pro.ttf */; };
+		189850F31D5AFDE400B7A8AD /* Bliss Pro Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189850F21D5AFDE400B7A8AD /* Bliss Pro Bold.ttf */; };
+		189851131D5B08B500B7A8AD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189851121D5B08B500B7A8AD /* SettingViewController.swift */; };
+		189851161D5B371A00B7A8AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189851151D5B371A00B7A8AD /* UIColorExtension.swift */; };
+		189851191D5B3C1600B7A8AD /* CollectPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189851181D5B3C1600B7A8AD /* CollectPaymentView.xib */; };
+		1898511B1D5B406500B7A8AD /* CollectPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898511A1D5B406500B7A8AD /* CollectPaymentView.swift */; };
+		1898511D1D5B4E9400B7A8AD /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1898511C1D5B4E9400B7A8AD /* ErrorView.xib */; };
+		1898511F1D5B4EAC00B7A8AD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898511E1D5B4EAC00B7A8AD /* ErrorView.swift */; };
+		189851221D5B5EEC00B7A8AD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189851211D5B5EEC00B7A8AD /* Constants.swift */; };
+		189851251D5B74E300B7A8AD /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189851241D5B74E300B7A8AD /* NetworkManager.m */; };
+		18F045A91D5C5AB100C371F5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F045A81D5C5AB100C371F5 /* Utilities.swift */; };
+		294FC8751D6D7B0F0074DC1E /* StringHMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FC8741D6D7B0F0074DC1E /* StringHMAC.swift */; };
+		31843D656E33D581C6AF3194 /* libPods-Coin Loft Retail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A9182E57FBCA08565E89D9 /* libPods-Coin Loft Retail.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A9182E57FBCA08565E89D9 /* libPods-Coin Loft Retail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Coin Loft Retail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182F8D491D5E1FC20082063A /* AuthenticationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationView.xib; sourceTree = "<group>"; };
+		182F8D4B1D5E200E0082063A /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		182F8D4D1D5E2FAE0082063A /* Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		185F34481D5C9DA500E967EB /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		185F344A1D5CACBF00E967EB /* Rates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		189850C51D5A12AC00B7A8AD /* Coin Loft Retail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Loft Retail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189850C81D5A12AE00B7A8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189850CD1D5A12AE00B7A8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189850CF1D5A12AE00B7A8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189850D21D5A12AE00B7A8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189850D41D5A12AE00B7A8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189850DE1D5A2EDA00B7A8AD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		189850E01D5A2F7F00B7A8AD /* MobileNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNumberViewController.swift; sourceTree = "<group>"; };
+		189850E21D5A2FE700B7A8AD /* Coin Loft Retail-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coin Loft Retail-Bridging-Header.h"; sourceTree = "<group>"; };
+		189850E61D5A3AA400B7A8AD /* Bliss Pro Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bliss Pro Medium.ttf"; sourceTree = "<group>"; };
+		189850E81D5A593200B7A8AD /* SecurityCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityCodeViewController.swift; sourceTree = "<group>"; };
+		189850EA1D5A600D00B7A8AD /* CalculateBitcoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateBitcoinViewController.swift; sourceTree = "<group>"; };
+		189850EC1D5A641B00B7A8AD /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		189850EE1D5AEBA500B7A8AD /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		189850F01D5AFDCF00B7A8AD /* Bliss Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bliss Pro.ttf"; sourceTree = "<group>"; };
+		189850F21D5AFDE400B7A8AD /* Bliss Pro Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bliss Pro Bold.ttf"; sourceTree = "<group>"; };
+		189851121D5B08B500B7A8AD /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		189851151D5B371A00B7A8AD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		189851181D5B3C1600B7A8AD /* CollectPaymentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectPaymentView.xib; sourceTree = "<group>"; };
+		1898511A1D5B406500B7A8AD /* CollectPaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectPaymentView.swift; sourceTree = "<group>"; };
+		1898511C1D5B4E9400B7A8AD /* ErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		1898511E1D5B4EAC00B7A8AD /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		189851211D5B5EEC00B7A8AD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		189851231D5B74E300B7A8AD /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		189851241D5B74E300B7A8AD /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		18F045A81D5C5AB100C371F5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		294FC8741D6D7B0F0074DC1E /* StringHMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHMAC.swift; sourceTree = "<group>"; };
+		610AC4B2DA5C910A42E4949C /* Pods-Coin Loft Retail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin Loft Retail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coin Loft Retail/Pods-Coin Loft Retail.debug.xcconfig"; sourceTree = "<group>"; };
+		759DBAB8D036DCDCA4204E6B /* Pods-Coin Loft Retail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coin Loft Retail.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coin Loft Retail/Pods-Coin Loft Retail.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189850C21D5A12AB00B7A8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31843D656E33D581C6AF3194 /* libPods-Coin Loft Retail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185F34471D5C9D8900E967EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				185F34481D5C9DA500E967EB /* Customer.swift */,
+				185F344A1D5CACBF00E967EB /* Rates.swift */,
+				182F8D4D1D5E2FAE0082063A /* Labels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		189850BC1D5A12AB00B7A8AD = {
+			isa = PBXGroup;
+			children = (
+				189850C71D5A12AD00B7A8AD /* Coin Loft Retail */,
+				189850C61D5A12AC00B7A8AD /* Products */,
+				373E43B07464ADD7255F8A6B /* Pods */,
+				EF10B7B332C1FDD141229887 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189850C61D5A12AC00B7A8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189850C51D5A12AC00B7A8AD /* Coin Loft Retail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189850C71D5A12AD00B7A8AD /* Coin Loft Retail */ = {
+			isa = PBXGroup;
+			children = (
+				185F34471D5C9D8900E967EB /* Models */,
+				189851201D5B5EBB00B7A8AD /* Constants */,
+				189851141D5B371A00B7A8AD /* Extensions */,
+				189850DB1D5A240E00B7A8AD /* Network Manager */,
+				189850DC1D5A240E00B7A8AD /* Utilities */,
+				189850DA1D5A240E00B7A8AD /* Bridging-Header */,
+				189850DD1D5A240E00B7A8AD /* View Controllers */,
+				189850E51D5A3A8200B7A8AD /* Fonts */,
+				189850C81D5A12AE00B7A8AD /* AppDelegate.swift */,
+				189850CC1D5A12AE00B7A8AD /* Main.storyboard */,
+				189850CF1D5A12AE00B7A8AD /* Assets.xcassets */,
+				189850D11D5A12AE00B7A8AD /* LaunchScreen.storyboard */,
+				189850D41D5A12AE00B7A8AD /* Info.plist */,
+			);
+			path = "Coin Loft Retail";
+			sourceTree = "<group>";
+		};
+		189850DA1D5A240E00B7A8AD /* Bridging-Header */ = {
+			isa = PBXGroup;
+			children = (
+				189850E21D5A2FE700B7A8AD /* Coin Loft Retail-Bridging-Header.h */,
+			);
+			path = "Bridging-Header";
+			sourceTree = "<group>";
+		};
+		189850DB1D5A240E00B7A8AD /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				189851231D5B74E300B7A8AD /* NetworkManager.h */,
+				189851241D5B74E300B7A8AD /* NetworkManager.m */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		189850DC1D5A240E00B7A8AD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18F045A81D5C5AB100C371F5 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		189850DD1D5A240E00B7A8AD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				189851171D5B3BDC00B7A8AD /* Custom Views */,
+				189850DE1D5A2EDA00B7A8AD /* HomeViewController.swift */,
+				189850E01D5A2F7F00B7A8AD /* MobileNumberViewController.swift */,
+				189850E81D5A593200B7A8AD /* SecurityCodeViewController.swift */,
+				189850EA1D5A600D00B7A8AD /* CalculateBitcoinViewController.swift */,
+				189850EC1D5A641B00B7A8AD /* OrderConfirmationViewController.swift */,
+				189850EE1D5AEBA500B7A8AD /* ThankyouViewController.swift */,
+				189851121D5B08B500B7A8AD /* SettingViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		189850E51D5A3A8200B7A8AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				189850F01D5AFDCF00B7A8AD /* Bliss Pro.ttf */,
+				189850E61D5A3AA400B7A8AD /* Bliss Pro Medium.ttf */,
+				189850F21D5AFDE400B7A8AD /* Bliss Pro Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		189851141D5B371A00B7A8AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				189851151D5B371A00B7A8AD /* UIColorExtension.swift */,
+				294FC8741D6D7B0F0074DC1E /* StringHMAC.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		189851171D5B3BDC00B7A8AD /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				189851181D5B3C1600B7A8AD /* CollectPaymentView.xib */,
+				1898511A1D5B406500B7A8AD /* CollectPaymentView.swift */,
+				1898511C1D5B4E9400B7A8AD /* ErrorView.xib */,
+				1898511E1D5B4EAC00B7A8AD /* ErrorView.swift */,
+				182F8D491D5E1FC20082063A /* AuthenticationView.xib */,
+				182F8D4B1D5E200E0082063A /* AuthenticationView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		189851201D5B5EBB00B7A8AD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				189851211D5B5EEC00B7A8AD /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		373E43B07464ADD7255F8A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610AC4B2DA5C910A42E4949C /* Pods-Coin Loft Retail.debug.xcconfig */,
+				759DBAB8D036DCDCA4204E6B /* Pods-Coin Loft Retail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF10B7B332C1FDD141229887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A9182E57FBCA08565E89D9 /* libPods-Coin Loft Retail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189850C41D5A12AB00B7A8AD /* Coin Loft Retail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189850D71D5A12AE00B7A8AD /* Build configuration list for PBXNativeTarget "Coin Loft Retail" */;
+			buildPhases = (
+				5456A5F69329003E894C1F2A /* 📦 Check Pods Manifest.lock */,
+				189850C11D5A12AB00B7A8AD /* Sources */,
+				189850C21D5A12AB00B7A8AD /* Frameworks */,
+				189850C31D5A12AB00B7A8AD /* Resources */,
+				CFB1B5AF7D0C80718373B9FA /* 📦 Embed Pods Frameworks */,
+				621D74D22A1DAD36FF2719A3 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Loft Retail";
+			productName = "Coin Loft Retail";
+			productReference = 189850C51D5A12AC00B7A8AD /* Coin Loft Retail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189850BD1D5A12AB00B7A8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Coin Loft";
+				TargetAttributes = {
+					189850C41D5A12AB00B7A8AD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J2SX9U4CQR;
+					};
+				};
+			};
+			buildConfigurationList = 189850C01D5A12AB00B7A8AD /* Build configuration list for PBXProject "Coin Loft Retail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189850BC1D5A12AB00B7A8AD;
+			productRefGroup = 189850C61D5A12AC00B7A8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189850C41D5A12AB00B7A8AD /* Coin Loft Retail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189850C31D5A12AB00B7A8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189850D31D5A12AE00B7A8AD /* LaunchScreen.storyboard in Resources */,
+				189851191D5B3C1600B7A8AD /* CollectPaymentView.xib in Resources */,
+				189850F31D5AFDE400B7A8AD /* Bliss Pro Bold.ttf in Resources */,
+				182F8D4A1D5E1FC20082063A /* AuthenticationView.xib in Resources */,
+				1898511D1D5B4E9400B7A8AD /* ErrorView.xib in Resources */,
+				189850D01D5A12AE00B7A8AD /* Assets.xcassets in Resources */,
+				189850CE1D5A12AE00B7A8AD /* Main.storyboard in Resources */,
+				189850E71D5A3AA400B7A8AD /* Bliss Pro Medium.ttf in Resources */,
+				189850F11D5AFDCF00B7A8AD /* Bliss Pro.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5456A5F69329003E894C1F2A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		621D74D22A1DAD36FF2719A3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coin Loft Retail/Pods-Coin Loft Retail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB1B5AF7D0C80718373B9FA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coin Loft Retail/Pods-Coin Loft Retail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189850C11D5A12AB00B7A8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189850C91D5A12AE00B7A8AD /* AppDelegate.swift in Sources */,
+				189850E11D5A2F7F00B7A8AD /* MobileNumberViewController.swift in Sources */,
+				294FC8751D6D7B0F0074DC1E /* StringHMAC.swift in Sources */,
+				18F045A91D5C5AB100C371F5 /* Utilities.swift in Sources */,
+				185F344B1D5CACBF00E967EB /* Rates.swift in Sources */,
+				189851251D5B74E300B7A8AD /* NetworkManager.m in Sources */,
+				1898511B1D5B406500B7A8AD /* CollectPaymentView.swift in Sources */,
+				189850ED1D5A641B00B7A8AD /* OrderConfirmationViewController.swift in Sources */,
+				189851131D5B08B500B7A8AD /* SettingViewController.swift in Sources */,
+				189850EB1D5A600D00B7A8AD /* CalculateBitcoinViewController.swift in Sources */,
+				189851161D5B371A00B7A8AD /* UIColorExtension.swift in Sources */,
+				189850E91D5A593200B7A8AD /* SecurityCodeViewController.swift in Sources */,
+				185F34491D5C9DA500E967EB /* Customer.swift in Sources */,
+				189850DF1D5A2EDA00B7A8AD /* HomeViewController.swift in Sources */,
+				182F8D4E1D5E2FAE0082063A /* Labels.swift in Sources */,
+				182F8D4C1D5E200E0082063A /* AuthenticationView.swift in Sources */,
+				189850EF1D5AEBA500B7A8AD /* ThankyouViewController.swift in Sources */,
+				1898511F1D5B4EAC00B7A8AD /* ErrorView.swift in Sources */,
+				189851221D5B5EEC00B7A8AD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189850CC1D5A12AE00B7A8AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189850CD1D5A12AE00B7A8AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189850D11D5A12AE00B7A8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189850D21D5A12AE00B7A8AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189850D51D5A12AE00B7A8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189850D61D5A12AE00B7A8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189850D81D5A12AE00B7A8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610AC4B2DA5C910A42E4949C /* Pods-Coin Loft Retail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Coin Loft Retail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coinloft.Coin-Loft-Retail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coin Loft Retail/Bridging-Header/Coin Loft Retail-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		189850D91D5A12AE00B7A8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759DBAB8D036DCDCA4204E6B /* Pods-Coin Loft Retail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Coin Loft Retail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coinloft.Coin-Loft-Retail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coin Loft Retail/Bridging-Header/Coin Loft Retail-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189850C01D5A12AB00B7A8AD /* Build configuration list for PBXProject "Coin Loft Retail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189850D51D5A12AE00B7A8AD /* Debug */,
+				189850D61D5A12AE00B7A8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189850D71D5A12AE00B7A8AD /* Build configuration list for PBXNativeTarget "Coin Loft Retail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189850D81D5A12AE00B7A8AD /* Debug */,
+				189850D91D5A12AE00B7A8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189850BD1D5A12AB00B7A8AD /* Project object */;
+}

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Bliss Pro Bold.ttf">
+            <string>BlissPro-Bold</string>
+        </mutableArray>
+        <mutableArray key="Bliss Pro Medium.ttf">
+            <string>BlissPro-Medium</string>
+            <string>BlissPro-Medium</string>
+        </mutableArray>
+        <mutableArray key="Bliss Pro.ttf">
+            <string>BlissPro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CollectPaymentView" customModule="Coin_Loft_Retail" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Nn-Ep-bIF">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-e9-QuS">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="Bum-Bu-67t"/>
+                                <constraint firstAttribute="width" constant="19" id="fXU-No-OXC"/>
+                            </constraints>
+                            <state key="normal" image="btn-cross"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Bum-Bu-67t"/>
+                                    <exclude reference="fXU-No-OXC"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="Bum-Bu-67t"/>
+                                    <include reference="fXU-No-OXC"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="onBtnCrossTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="lG7-eG-KMB"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2F-lT-A2G">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="LlA-Dg-Yy8"/>
+                                <constraint firstAttribute="width" constant="259" id="xfR-8a-Keu"/>
+                            </constraints>
+                            <string key="text">Please collect payment 
+from the customer</string>
+                            <fontDescription key="fontDescription" name="BlissPro-Medium" family="Bliss Pro" pointSize="24"/>
+                            <color key="textColor" red="0.55294117647058827" green="0.55294117647058827" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="LlA-Dg-Yy8"/>
+                                    <exclude reference="xfR-8a-Keu"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="LlA-Dg-Yy8"/>
+                                    <include reference="xfR-8a-Keu"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iei-BX-BoS">
+                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                            <color key="backgroundColor" red="0.94117647058823528" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="210" id="DBN-VH-e0G"/>
+                                <constraint firstAttribute="height" constant="50" id="sbB-fR-iBj"/>
+                            </constraints>
+                            <color key="textColor" red="0.55294117647058827" green="0.55294117647058827" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="BlissPro-Medium" family="Bliss Pro" pointSize="26"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="DBN-VH-e0G"/>
+                                    <exclude reference="sbB-fR-iBj"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="DBN-VH-e0G"/>
+                                    <include reference="sbB-fR-iBj"/>
+                                </mask>
+                            </variation>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your merchant PIN code or Fingerprint to confirm the order" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg7-pV-TJe">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="210" id="W1T-EP-Kw6"/>
+                                <constraint firstAttribute="height" constant="40" id="cPh-oK-yTe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BlissPro" family="Bliss Pro" pointSize="14"/>
+                            <color key="textColor" red="0.6588235294117647" green="0.6588235294117647" blue="0.63529411764705879" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="W1T-EP-Kw6"/>
+                                    <exclude reference="cPh-oK-yTe"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="W1T-EP-Kw6"/>
+                                    <include reference="cPh-oK-yTe"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWJ-GQ-jOV">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <color key="backgroundColor" red="0.8784313725490196" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="TC1-8f-3Ev"/>
+                                <constraint firstAttribute="width" constant="46" id="qyg-hy-Q56"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BlissPro-Bold" family="Bliss Pro" pointSize="20"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="TC1-8f-3Ev"/>
+                                    <exclude reference="qyg-hy-Q56"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="TC1-8f-3Ev"/>
+                                    <include reference="qyg-hy-Q56"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="onOKBtnTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="8Zo-yq-wRb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkg-NT-bqe">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="94" id="Dbs-k4-xdX"/>
+                                <constraint firstAttribute="width" constant="74" id="Fsw-uj-Ybe"/>
+                            </constraints>
+                            <state key="normal" image="icon-fingerprint"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Dbs-k4-xdX"/>
+                                    <exclude reference="Fsw-uj-Ybe"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="Dbs-k4-xdX"/>
+                                    <include reference="Fsw-uj-Ybe"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="btnTouchIDTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="62m-Ow-g6Q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="iei-BX-BoS" firstAttribute="top" secondItem="O2F-lT-A2G" secondAttribute="bottom" constant="30" id="0tx-Su-ekv"/>
+                        <constraint firstItem="O2F-lT-A2G" firstAttribute="top" secondItem="ZIg-e9-QuS" secondAttribute="bottom" constant="16" id="2an-Tb-to0"/>
+                        <constraint firstItem="ZIg-e9-QuS" firstAttribute="top" secondItem="3Nn-Ep-bIF" secondAttribute="top" constant="11" id="3iz-BO-cHT"/>
+                        <constraint firstAttribute="trailing" secondItem="tWJ-GQ-jOV" secondAttribute="trailing" constant="35" id="8W5-Tb-4Ad"/>
+                        <constraint firstAttribute="trailing" secondItem="ZIg-e9-QuS" secondAttribute="trailing" constant="13" id="97P-vL-k5l"/>
+                        <constraint firstAttribute="width" constant="280" id="BZI-vs-i0r"/>
+                        <constraint firstAttribute="height" constant="400" id="DXM-O5-auP"/>
+                        <constraint firstItem="Qkg-NT-bqe" firstAttribute="top" secondItem="pg7-pV-TJe" secondAttribute="bottom" constant="18" id="QNt-qg-6Kh"/>
+                        <constraint firstItem="Qkg-NT-bqe" firstAttribute="centerX" secondItem="3Nn-Ep-bIF" secondAttribute="centerX" id="Wnf-qN-4S8"/>
+                        <constraint firstItem="pg7-pV-TJe" firstAttribute="centerX" secondItem="3Nn-Ep-bIF" secondAttribute="centerX" id="dQB-qX-oIZ"/>
+                        <constraint firstItem="pg7-pV-TJe" firstAttribute="top" secondItem="iei-BX-BoS" secondAttribute="bottom" constant="8" id="euM-bH-RBs"/>
+                        <constraint firstItem="O2F-lT-A2G" firstAttribute="centerX" secondItem="3Nn-Ep-bIF" secondAttribute="centerX" id="kKN-rB-zcX"/>
+                        <constraint firstItem="tWJ-GQ-jOV" firstAttribute="top" secondItem="O2F-lT-A2G" secondAttribute="bottom" constant="30" id="sy9-L9-oUU"/>
+                        <constraint firstItem="iei-BX-BoS" firstAttribute="centerX" secondItem="3Nn-Ep-bIF" secondAttribute="centerX" id="xop-13-e0D"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="ZIg-e9-QuS"/>
+                            <exclude reference="O2F-lT-A2G"/>
+                            <exclude reference="iei-BX-BoS"/>
+                            <exclude reference="pg7-pV-TJe"/>
+                            <exclude reference="tWJ-GQ-jOV"/>
+                            <exclude reference="Qkg-NT-bqe"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="BZI-vs-i0r"/>
+                            <exclude reference="DXM-O5-auP"/>
+                            <exclude reference="0tx-Su-ekv"/>
+                            <exclude reference="xop-13-e0D"/>
+                            <exclude reference="QNt-qg-6Kh"/>
+                            <exclude reference="Wnf-qN-4S8"/>
+                            <exclude reference="3iz-BO-cHT"/>
+                            <exclude reference="97P-vL-k5l"/>
+                            <exclude reference="8W5-Tb-4Ad"/>
+                            <exclude reference="sy9-L9-oUU"/>
+                            <exclude reference="2an-Tb-to0"/>
+                            <exclude reference="kKN-rB-zcX"/>
+                            <exclude reference="dQB-qX-oIZ"/>
+                            <exclude reference="euM-bH-RBs"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="ZIg-e9-QuS"/>
+                            <include reference="O2F-lT-A2G"/>
+                            <include reference="iei-BX-BoS"/>
+                            <include reference="pg7-pV-TJe"/>
+                            <include reference="tWJ-GQ-jOV"/>
+                            <include reference="Qkg-NT-bqe"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="BZI-vs-i0r"/>
+                            <include reference="DXM-O5-auP"/>
+                            <include reference="0tx-Su-ekv"/>
+                            <include reference="xop-13-e0D"/>
+                            <include reference="QNt-qg-6Kh"/>
+                            <include reference="Wnf-qN-4S8"/>
+                            <include reference="3iz-BO-cHT"/>
+                            <include reference="97P-vL-k5l"/>
+                            <include reference="8W5-Tb-4Ad"/>
+                            <include reference="sy9-L9-oUU"/>
+                            <include reference="2an-Tb-to0"/>
+                            <include reference="kKN-rB-zcX"/>
+                            <include reference="dQB-qX-oIZ"/>
+                            <include reference="euM-bH-RBs"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Nn-Ep-bIF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="1Ki-gb-8es"/>
+                <constraint firstItem="3Nn-Ep-bIF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fjM-JX-lzJ"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3Nn-Ep-bIF"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="1Ki-gb-8es"/>
+                    <exclude reference="fjM-JX-lzJ"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="3Nn-Ep-bIF"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="1Ki-gb-8es"/>
+                    <include reference="fjM-JX-lzJ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="lblCollectPaymentInfo" destination="O2F-lT-A2G" id="a4r-0m-edq"/>
+                <outlet property="lblFingerPrintInfo" destination="pg7-pV-TJe" id="6a9-pQ-duH"/>
+                <outlet property="textFieldMerchantPin" destination="iei-BX-BoS" id="pei-gC-txG"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn-cross" width="19" height="18"/>
+        <image name="icon-fingerprint" width="74" height="94"/>
+    </resources>
+</document>

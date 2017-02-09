@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Bliss Pro Bold.ttf">
+            <string>BlissPro-Bold</string>
+            <string>BlissPro-Bold</string>
+            <string>BlissPro-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ErrorView" customModule="Coin_Loft_Retail" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzQ-UL-oPr">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-error" translatesAutoresizingMaskIntoConstraints="NO" id="rGH-xo-cOT">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="58" id="6mN-VJ-nZX"/>
+                                <constraint firstAttribute="width" constant="58" id="8DW-n6-wjK"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="6mN-VJ-nZX"/>
+                                    <exclude reference="8DW-n6-wjK"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="6mN-VJ-nZX"/>
+                                    <include reference="8DW-n6-wjK"/>
+                                </mask>
+                            </variation>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmg-8f-riJ">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="174" id="38Y-aY-JNf"/>
+                                <constraint firstAttribute="height" constant="36" id="DnE-G6-Z9x"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BlissPro-Bold" family="Bliss Pro" pointSize="35"/>
+                            <color key="textColor" red="0.5607843137254902" green="0.56470588235294117" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="38Y-aY-JNf"/>
+                                    <exclude reference="DnE-G6-Z9x"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="38Y-aY-JNf"/>
+                                    <include reference="DnE-G6-Z9x"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-Ij-pMS">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="193" id="o8u-3l-cCo">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="258"/>
+                                </constraint>
+                                <constraint firstAttribute="height" constant="73" id="yXj-x7-agr"/>
+                            </constraints>
+                            <string key="text">An Error occurred 
+try again </string>
+                            <fontDescription key="fontDescription" name="BlissPro-Bold" family="Bliss Pro" pointSize="23"/>
+                            <color key="textColor" red="0.65098039215686276" green="0.65098039215686276" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="o8u-3l-cCo"/>
+                                    <exclude reference="yXj-x7-agr"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="o8u-3l-cCo"/>
+                                    <include reference="yXj-x7-agr"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvZ-VL-P7y">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <color key="backgroundColor" red="0.36078431372549019" green="0.6588235294117647" blue="0.054901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="119" id="Obd-oq-P8v"/>
+                                <constraint firstAttribute="height" constant="49" id="oU2-jl-QzL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BlissPro-Bold" family="Bliss Pro" pointSize="26"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Obd-oq-P8v"/>
+                                    <exclude reference="oU2-jl-QzL"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="Obd-oq-P8v"/>
+                                    <include reference="oU2-jl-QzL"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="onBtnOkayTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="WKi-ng-KW2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="5KE-Jr-6ni"/>
+                        <constraint firstAttribute="height" constant="400" id="8pc-pa-Zse"/>
+                        <constraint firstItem="rGH-xo-cOT" firstAttribute="top" secondItem="gzQ-UL-oPr" secondAttribute="top" constant="33" id="Cuj-Gd-TGy"/>
+                        <constraint firstItem="wAc-Ij-pMS" firstAttribute="top" secondItem="xmg-8f-riJ" secondAttribute="bottom" constant="21" id="F1v-Wr-LwJ"/>
+                        <constraint firstItem="rGH-xo-cOT" firstAttribute="centerX" secondItem="gzQ-UL-oPr" secondAttribute="centerX" id="PO5-po-CtT"/>
+                        <constraint firstItem="JvZ-VL-P7y" firstAttribute="centerX" secondItem="gzQ-UL-oPr" secondAttribute="centerX" id="ZOR-Yg-a4i"/>
+                        <constraint firstItem="xmg-8f-riJ" firstAttribute="top" secondItem="rGH-xo-cOT" secondAttribute="bottom" constant="16" id="b6w-D4-sxu"/>
+                        <constraint firstItem="wAc-Ij-pMS" firstAttribute="centerX" secondItem="gzQ-UL-oPr" secondAttribute="centerX" id="i1v-kt-Teo"/>
+                        <constraint firstItem="JvZ-VL-P7y" firstAttribute="top" secondItem="wAc-Ij-pMS" secondAttribute="bottom" constant="53" id="lMj-4G-fSJ"/>
+                        <constraint firstItem="xmg-8f-riJ" firstAttribute="centerX" secondItem="gzQ-UL-oPr" secondAttribute="centerX" id="xwd-QM-5Yq"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="rGH-xo-cOT"/>
+                            <exclude reference="xmg-8f-riJ"/>
+                            <exclude reference="wAc-Ij-pMS"/>
+                            <exclude reference="JvZ-VL-P7y"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="5KE-Jr-6ni"/>
+                            <exclude reference="8pc-pa-Zse"/>
+                            <exclude reference="ZOR-Yg-a4i"/>
+                            <exclude reference="lMj-4G-fSJ"/>
+                            <exclude reference="F1v-Wr-LwJ"/>
+                            <exclude reference="i1v-kt-Teo"/>
+                            <exclude reference="b6w-D4-sxu"/>
+                            <exclude reference="xwd-QM-5Yq"/>
+                            <exclude reference="Cuj-Gd-TGy"/>
+                            <exclude reference="PO5-po-CtT"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="rGH-xo-cOT"/>
+                            <include reference="xmg-8f-riJ"/>
+                            <include reference="wAc-Ij-pMS"/>
+                            <include reference="JvZ-VL-P7y"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="5KE-Jr-6ni"/>
+                            <include reference="8pc-pa-Zse"/>
+                            <include reference="ZOR-Yg-a4i"/>
+                            <include reference="lMj-4G-fSJ"/>
+                            <include reference="F1v-Wr-LwJ"/>
+                            <include reference="i1v-kt-Teo"/>
+                            <include reference="b6w-D4-sxu"/>
+                            <include reference="xwd-QM-5Yq"/>
+                            <include reference="Cuj-Gd-TGy"/>
+                            <include reference="PO5-po-CtT"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gzQ-UL-oPr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ivh-f2-1aX"/>
+                <constraint firstItem="gzQ-UL-oPr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sgF-mg-pSb"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="gzQ-UL-oPr"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="ivh-f2-1aX"/>
+                    <exclude reference="sgF-mg-pSb"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="gzQ-UL-oPr"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="ivh-f2-1aX"/>
+                    <include reference="sgF-mg-pSb"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="btnOkay" destination="JvZ-VL-P7y" id="yyq-gL-8ic"/>
+                <outlet property="errorlabel" destination="wAc-Ij-pMS" id="sss-18-95W"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-error" width="58" height="58"/>
+    </resources>
+</document>
